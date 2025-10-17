@@ -1,16 +1,28 @@
-# React + Vite
+# Star Wars Starships
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje / This project: **React + Vite** kullanılarak geliştirilmiş bir Star Wars uzay gemileri uygulamasıdır / a Star Wars starships app built with React + Vite.  
 
-Currently, two official plugins are available:
+Kullanıcılar gemileri listeleyebilir, isim veya modele göre filtreleyebilir ve kartlara tıklayarak detaylarını görebilirler / Users can list ships, filter by name or model, and click cards to see details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Canlı Demo / Live Demo
+[https://lustrous-malabi-4a3d89.netlify.app/](https://lustrous-malabi-4a3d89.netlify.app/)
 
-## React Compiler
+## Kullanılan Teknolojiler / Technologies
+- React – UI geliştirme / UI development  
+- Vite – Hızlı geliştirme ve HMR / Fast development with HMR  
+- Tailwind CSS – Modern tasarım / Modern styling  
+- Axios – API istekleri / API requests  
+- Context API – State yönetimi / State management  
+- SWAPI API – Star Wars gemi verileri / Star Wars starship data  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Özellikler / Features
+- API’den gemi verilerini çekme / Fetch starship data from API  
+- Arama ve filtreleme / Search & filter  
+- Kartlara tıklayınca detayları gösterme / Expand card details  
+- Responsive ve temiz tasarım / Clean & responsive design  
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Kullanım / Usage
+```bash
+git clone <repo-url>
+npm install
+npm run dev
